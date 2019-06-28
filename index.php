@@ -34,6 +34,6 @@
         msg_error();
     }
 
-    require_once 'views/site/footer.php';
+    //require_once 'views/site/footer.php';
 
 ?>

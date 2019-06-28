@@ -1,9 +1,23 @@
 <div class="fondo">
-<div class="view">
-  <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid" alt="placeholder">
-  <div class="mask flex-center waves-effect waves-light rgba-teal-strong">
-    <p class="white-text">strong overlay</p>
+
+  <div class="filtro">
+    <div class="container text-center">
+        <img src="<?=base_url?>assets/img/logo.png" alt="login" width="200px" class="mt-5">
+
+        <div class="row justify-content-center">
+          <div class="col-6">
+
+              <form class="text-center border border-light p-5 mt-4" id="login-form">
+
+                <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+                <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+
+                <button class="btn cbg-primary-dark text-light btn-radius pl-5 pr-5" type="submit">Inicia Sesión</button>
+
+              </form>
+          </div>
+        </div>
+    </div>
   </div>
-</div>
 
 </div>

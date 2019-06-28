@@ -1,4 +1,33 @@
 .fondo{
+    background-image: url("../img/login-fondo.jpg");
+
+    /* Full height */
     height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
    
+}
+
+.filtro{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.cbg-primary-dark{background: #FE6100;}
+.cbg-primary{background: #FE7926;}
+.cbg-accent{background: #05BE0E;}
+.cbg-gris{background: #8A8A8A;}
+.cbg-negro{background: #393939;}
+
+#login-form{
+    border-radius: 15px;
+    background: white;
+}
+
+.btn-radius{
+    border-radius: 50px;
 }
