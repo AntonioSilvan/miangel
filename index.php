@@ -1,6 +1,7 @@
 <?php
     require_once 'autoload.php';
     require_once 'globals/parameters.php';
+    require_once 'globals/db.php';
     require_once 'views/site/head.php';
 
     function msg_Error(){
@@ -34,6 +35,6 @@
         msg_error();
     }
 
-    //require_once 'views/site/footer.php';
+    require_once 'views/site/footer.php';
 
 ?>

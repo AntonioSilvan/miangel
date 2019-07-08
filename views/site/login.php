@@ -5,7 +5,7 @@
         <img src="<?=base_url?>assets/img/logo.png" alt="login" width="200px" class="mt-5">
 
         <div class="row justify-content-center">
-          <div class="col-6">
+          <div class="col-12 col-md-9 col-lg-6">
 
               <form class="text-center border border-light p-5 mt-4" id="login-form">
 

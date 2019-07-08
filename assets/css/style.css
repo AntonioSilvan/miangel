@@ -17,11 +17,20 @@
     background: rgba(0, 0, 0, 0.7);
 }
 
+
+
 .cbg-primary-dark{background: #FE6100;}
 .cbg-primary{background: #FE7926;}
 .cbg-accent{background: #05BE0E;}
 .cbg-gris{background: #8A8A8A;}
 .cbg-negro{background: #393939;}
+
+.ctext-primary-dark{color: #FE6100;}
+.ctext-primary{color: #FE7926;}
+.ctext-accent{color: #05BE0E;}
+.ctext-gris{color: #8A8A8A;}
+.ctext-negro{color: #393939;}
+.ctext-blanco{color: white;}
 
 #login-form{
     border-radius: 15px;
@@ -30,4 +39,16 @@
 
 .btn-radius{
     border-radius: 50px;
+}
+
+#aside{
+    border-right: 1px solid #8A8A8A;
+}
+#aside ul{
+    list-style: none;
+    padding-left: 0px;
+}
+#aside ul li{
+    padding: 8px 0px;
+    color: #8A8A8A;
 }

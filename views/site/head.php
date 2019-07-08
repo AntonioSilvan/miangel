@@ -14,6 +14,9 @@
   <link href="<?=base_url?>assets/css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="<?=base_url?>assets/css/style.css" rel="stylesheet">
+
+  <link href="<?=base_url?>assets/plugins/vanillatoast/vanillatoasts.css" rel="stylesheet">
+
 </head>
 
 
