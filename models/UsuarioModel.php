@@ -38,7 +38,13 @@
         }
 
         public function insert(){
+            $alu_nombre=$this->getAlu_nombre();
+            $alu_carrera=$this->getAlu_carrera();
+            $alu_semestre=$this->getAlu_semestre();
 
+            $query="INSERT INTO alumnos VALUES (null, '$alu_nombre', '$alu_carrera', $alu_semestre)";
+            $result=$this->db->query($query);
+            return $result;
         }
     }
 ?>
