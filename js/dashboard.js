@@ -43,7 +43,7 @@ function toastError(mensaje){
 //Funciones para cargar vistas
 function userInsert(){
 	$.ajax({
-		url:'../views/users/insert.php',
+		url:'http://localhost/miangel/sistema/usuario/viewInsert',
 		success:function(result){
 			$("#dashboard").html(result);
 		}
@@ -55,6 +55,16 @@ $("#item1").click(function(){
 });
 
 $("#item2").click(function() {
-	toastError('Usuario agregado correctamente');
+	toastWarning('Usuario agregado correctamente');
 
+});
+
+$("#btn").click(function(){
+	$.ajax({
+		url:'http://localhost/miangel/sistema/usuario/texto',
+		success:function(r){
+			$("#dashboard").html(r);
+		}
+	});
+	return false;
 });

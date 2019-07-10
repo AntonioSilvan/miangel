@@ -1,10 +1,17 @@
 <?php
+
     require_once 'models/UsuarioModel.php';
     class UsuarioController{
 
+        
+        public function viewInsert(){
+            require_once 'views/users/insert.php';
+        }
 
+        public function texto(){
+            echo "<script type='text/javascript'>console.log('eja')</script>";
+        }
         public function insert(){
-            if($_POST){
                 $alu_nombre=$_POST['nombre'];
                 $alu_semestre=$_POST['semestre'];
                 $alu_carrera=$_POST['carrera'];
@@ -15,8 +22,8 @@
                 $UsuarioModel->setAlu_semestre($alu_semestre);
 
                 $UsuarioModel->insert();
+                
 
-            }
         }
     }
 ?>

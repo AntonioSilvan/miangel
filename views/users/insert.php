@@ -7,7 +7,7 @@
             <input type="text" class="form-control mb-2" placeholder="Carrera..." name="carrera">
             <input type="text" class="form-control mb-2" placeholder="Semestre..." name="semestre">
 
-            <button class="btn btn-radius cbg-gris ctext-blanco" type="submit">Registrar</button>
+            <button class="btn btn-radius cbg-gris ctext-blanco" id="btn">Registrar</button>
 
         </form>
     </div>
