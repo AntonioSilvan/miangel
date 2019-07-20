@@ -12,7 +12,7 @@
                 <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
                 <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
 
-                <button class="btn cbg-primary-dark text-light btn-radius pl-5 pr-5" type="submit">Inicia Sesión</button>
+                <button class="btn cbg-primary-dark text-light btn-radius pl-5 pr-5" id="btn_login">Inicia Sesión</button>
 
               </form>
           </div>

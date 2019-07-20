@@ -49,6 +49,9 @@
     padding-left: 0px;
 }
 #aside ul li{
-    padding: 8px 0px;
-    color: #8A8A8A;
+    padding: 4px 0px;
+
+}
+#aside a{
+    color: #8A8A8A;;
 }

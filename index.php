@@ -1,7 +1,8 @@
 <?php
     require_once 'autoload.php';
     require_once 'globals/parameters.php';
-    //require_once 'globals/db.php';
+    require_once 'globals/db.php';
+    require_once 'globals/utils.php';
     require_once 'views/site/head.php';
 
     function msg_Error(){
@@ -36,7 +37,9 @@
     }
 
 ?>
+    <div class="wrap" id="wrap">
 
+    </div>
  <!-- SCRIPTS -->
   <!-- JQuery -->
   <script type="text/javascript" src="<?=base_url?>assets/js/jquery-3.4.1.min.js"></script>
@@ -46,9 +49,3 @@
   <script type="text/javascript" src="<?=base_url?>assets/js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="<?=base_url?>assets/js/mdb.min.js"></script>
-  
-  <!-- Ajax del dashboard -->
-  <script src="<?=base_url?>js/dashboard.js"></script>
-
-  <!-- Plugin vanilla toast -->
-  <script src="<?=base_url?>assets/plugins/vanillatoast/vanillatoasts.js"></script>
